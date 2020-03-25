@@ -1,0 +1,21 @@
+/* comment */
+
+/*selected tag{
+  property: value;
+} */
+
+h1{
+  color: blue;
+}
+
+li{
+  color: rgb(255,95,0); /*search for color picker to get rgb and hex codes*/
+}
+
+p{
+  color: #0895a8; /*Hex codes*/
+}
+
+h4{
+  color: rgba(255,95,0,0.5); /*a is for aplha, its value is b/w 0-1, 0 is fully transprent and 1 is opaque*/
+}

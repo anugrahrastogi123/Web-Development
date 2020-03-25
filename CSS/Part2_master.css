@@ -1,0 +1,16 @@
+body{
+  background: url(https://img2.10bestmedia.com/Images/Photos/352450/GettyImages-913753556_54_990x660.jpg);
+  background-repeat: no-repeat;
+}
+
+div{
+  background-color: red;
+  border-color: blue;
+  border-width: thick; /*try using 5px; this using your own pixel values */
+  border-style: double;
+}
+
+span{
+  background-color: blue;
+  color: white;
+}

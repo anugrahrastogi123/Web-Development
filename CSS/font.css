@@ -1,0 +1,20 @@
+h1{
+  font-family: "Arial";
+  text-align: center;
+}
+
+boby{
+  font-size: 20px;
+}
+
+#two{
+  font-size: 1.0em;
+}
+
+/* if 1em = 16px
+then 2em = 32px */
+
+p{
+  font-style: italic;
+  font-weight: bold;
+}

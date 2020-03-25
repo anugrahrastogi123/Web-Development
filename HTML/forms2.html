@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Hotel Feedback</title>
+  </head>
+  <body>
+    <h1>Hotel Feedback Form</h1>
+
+    <form method="get">
+      <h3>Are you from India?</h3>
+      <label for="yes">Yes: </label>
+      <input id="yes" type="radio" name="loc" value="yes">
+      <label for="no">No: </label>
+      <input id="no" type="radio" name="loc" value="no">
+      <!--To link radio buttons, they should have same name-->
+
+      <h3>How was our sevice?</h3>
+
+      <select name="stars"> <!--For a drop down menu-->
+        <option value="Great">3</option>
+        <option value="Ok">2</option>
+        <option value="Bad">1</option>
+      </select>
+
+      <h3>Any other feedback?</h3>
+
+      <textarea name="name" rows="8" cols="50"></textarea>
+
+      <input type="submit" name="" value="Submit">
+    </form>
+  </body>
+</html>
